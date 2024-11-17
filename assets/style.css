@@ -7,13 +7,19 @@
 
 }
 
+body{
+    display:inline-block;
+}
+
 .hero{
+
     display: grid;
     gap:0;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: 8;
     grid-template-rows: 3;
+    font-size: 0;
 }
 
 .hero *{
@@ -65,15 +71,17 @@
     display: grid;
     text-align: center;
     position:relative;
+    top:-2vw;
     gap: 1vh;
     padding: 2vh 1vh 3vh 1vh;
     margin: 0;
     max-width: 100vw;
+    font-size:0;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: 3;
     grid-template-rows: 3;
-    background-image: linear-gradient(black, #b87d4b, #e5b25d, #f2dd6e, #cff27e);
+    background-image: linear-gradient(#03071e, #6a040f, #d00000, #e85d04, #faa307);
 }
 
 #gallery > div{
@@ -166,7 +174,6 @@
     left:0;
 }
 
-footer{
-    height:500px;
-    background-color: #cff27e;
+#gallery p{
+    padding-bottom: 100px;
 }

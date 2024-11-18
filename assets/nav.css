@@ -1,0 +1,46 @@
+.topnav{
+    background-color: rgba(0, 0, 0, 0.2);
+    
+    z-index: 2;
+    grid-column: 8;
+    grid-row: 1/4;
+}
+
+.topnav > a{
+    display:block;
+    z-index: 3;
+    float:inline-start;
+    width: 10vw;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1vw;
+    margin: 2vh 2vh 0vh 2vh;
+    padding:0.5vh;
+    background-color: rgba(0,0,0,0);
+    text-align:justify;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    text-shadow: 0.1vw 0.1vw 1vw black;
+    color:rgba(46, 46, 46, 0.8);
+    background-color: rgba(255, 255, 255, 0.4);
+    font-weight: 600;
+}
+
+.topnav a:active{
+    text-shadow: 0.4vw 0.4vw 1vw black;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+@media screen and (max-width:720px){
+    .topnav{
+        grid-column: 7/9;
+        grid-row: 1/4;
+    }
+    .topnav > a{
+        grid-column: 7/9;
+        grid-row: 1/4;
+        width: 15vw;
+    }
+
+}

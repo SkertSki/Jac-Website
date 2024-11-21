@@ -46,6 +46,7 @@ body{
 
 .topnav{
     background-color: rgba(0, 0, 0, 0.2);
+    overflow: hidden;
     
     z-index: 2;
     grid-column: 8;
@@ -80,12 +81,13 @@ body{
 
 .jac{
     background-color: rgba(0,0,0,0);
-    padding:0vw 0vw 4vw 4vw;
+    padding:0.7vw 0.7vw 4vw 4vw;
     color: white;
     font-size: 1.2vw;
     font-family: monospace;
     font-style: oblique;
-    text-shadow: 0vw 0vw 1vw black;
+    text-shadow: 0vw 0vw 0.7vw black;
+    overflow: hidden;
 
     grid-column: 1/2;
     grid-row: 2/4;
